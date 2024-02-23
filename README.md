@@ -14,9 +14,9 @@ These anndata objects have been used to reproduce the results in the manuscript 
 ## Model Structure
 The MutipleCircularRegression model for predicting cell cycle phases from raw gene expression data employs a multi-layered architecture featuring linear transformations in fully connected layers. This design  incorporates three hidden layers, dropout mechanisms for regularization, and output layers predicting sine and cosine components. The model outputs are represented as cartisian values considering the periodicity of the data:
 ```math
-sin_{out} = sin(2*\pi*sin(θ))                  
+sin_{out} = sin(2*\pi*θ_{out})                  
 ;
-cos_{out} = cos(2*\pi*cos(θ))
+cos_{out} = cos(2*\pi*θ_{out}))
 ```
 
 
