@@ -8,6 +8,9 @@ This project utilizes mouse embryonic stem cell (mESCs) data annotated with the 
 ```bash
 curl -LJO https://zenodo.org/record/4719436/files/velocity_anndata_mouse_embryonic_stem_cells_DeepCycle_ISMARA.h5ad
 ```
+
+These anndata objects have been used to reproduce the results in the manuscript [Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning](https://www.nature.com/articles/s41467-022-30545-8).
+
 ### Angle-Based Loss Function
 Given the periodic nature of our cell cycle data, we used a custom loss function in our analysis, which measures the difference between predicted and target directions based on their cosine similarity. 
 
