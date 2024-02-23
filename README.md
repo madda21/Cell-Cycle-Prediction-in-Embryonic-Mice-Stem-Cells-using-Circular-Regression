@@ -18,7 +18,9 @@ sin_{out} = sin(2*\pi*θ_{out})
 ;
 cos_{out} = cos(2*\pi*θ_{out}))
 ```
-
+<p align="center">
+  <img src="model.png">
+</p>
 
 ## Angle-Based Loss Function
 Given the periodic nature of our cell cycle data, we used a custom loss function in our analysis, which measures the difference between predicted and target directions based on their cosine similarity. 
