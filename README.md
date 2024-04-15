@@ -36,5 +36,5 @@ where:
 
 
 ```math
-P(rt) = $rt_i/ \sum_{k=1}^N rt_k \$
+P(rt) = $\frac{rt_i}{\sum_{k=1}^N rt_k \}$
 ```
