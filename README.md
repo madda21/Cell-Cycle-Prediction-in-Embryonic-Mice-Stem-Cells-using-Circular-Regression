@@ -32,9 +32,3 @@ where:
 - Angle of the target direction: $$θ_{target} = atan2(y_{cos}, y_{sin})$$
 
 
-
-
-
-```math
-$$ P(rt) = {rt_i \over \sum_{k=1}^N rt_k \}$$
-```
