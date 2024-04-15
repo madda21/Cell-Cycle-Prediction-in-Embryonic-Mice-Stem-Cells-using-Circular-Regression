@@ -30,3 +30,11 @@ where:
 - Angle of the predicted direction: $$θ_{predicted} = atan2(x_{cos}, x_{sin})$$ 
 
 - Angle of the target direction: $$θ_{target} = atan2(y_{cos}, y_{sin})$$
+
+
+
+
+
+```math
+P(rt) = $rt_i/ \sum_{k=1}^N rt_k \$
+```
